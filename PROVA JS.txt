@@ -1,0 +1,30 @@
+QUESTÃO 1 (9,0): Você está desenvolvendo um algoritmo que será utilizado em uma programa que é responsável por uma lista de tarefas, vulgo to-do list. Com base nesse enunciado e o que foi aprendido em sala de aula, responda os seguintes pontos:
+
+A. Construa uma função que peça para o usuário digitar uma tarefa, e, com isso, construa outra função que receba 1 parâmetro (o que o usuário digitou), e exiba no console e no alert o que foi passado.
+
+B. Crie dois vetores, um para números e outro para textos.
+
+C. Construa uma função que receba 1 parâmetro, ela deve ser responsável por decidir em qual vetor será adiconado a entrada que o usuário digitou na alternativa "A", se  o usuário digitou APENAS números, adicione no vetor de números, se não, adicione no vetor de textos.
+
+D. Faça com que o programa seja executado 50 vezes, caso o usuário digite "0" em alguma das execuções, pare de executar o programa e encerre tudo, exibindo a mensagem "Programa encerrado" no console e alert.
+
+E. Caso o usuário não digite nada e confirme com o input vazio, adicione o texto "Tarefa ${numeroDaTarefaAtual}" no vetor de textos. Ex: "Tarefa 1"; "Tarefa 2"; "Tarefa 3".
+
+----- Após o termino das 50 execuções -----
+
+F. (NÃO use for, while e do while) Faça uma iteração no vetor de números e diga a quantidade de números pares presentes no vetor, assim como a soma de todos os ímpares.
+
+G. (NÃO use for, while e do while) Agora crie um novo vetor que receba todos os valores do vetor de números ao cubo, e no final imprima no console.
+
+H. Lembre-se: caso o usuário tenha digitado um número decimal (número com vírgula), considerar apenas a parte INTEIRA do número. Ex: "19.8", considere apenas "19".
+
+I. (NÃO use laços de repetição) Copie os dados do vetor de textos em outro vetor de textos;
+
+J. Transforme todo o vetor de cópias em uma única string.
+
+K. (NÃO usar if else) Após a letra "J", compare se o tamanho dessa string é maior ou menor do que essa string: const alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ". 
+
+M. Caso a string "alfabeto" seja maior, separe letra a letra em uma nova string com ", ".
+
+
+QUESTÃO 2 (1,0): Crie um objeto que tenha as chaves: nome, idade, cidade, UF, bairro. Peça para o usuário digitar esses valores esses valores e adicione nesse objeto, no final, imprima no console o objeto.
